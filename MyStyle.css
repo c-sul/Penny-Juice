@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* css Document */
+body {
+    background-image: url("../IMAGES/PJbackground_opt.png");
+    background-size: cover;
+    font-family: monospace,fantasy,sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: brown
+}
+
+h1, h2, h3 {
+    margin: 10;
+}
+
+#container {
+   width: 800px;
+    height: 900px
+    margin-left: center;
+    margin-right: auto; 
+}
+
+.header {
+    color: crimson;
+    text-align: center;
+    
+    
+}   
+
+.content
+    padding: 0;
+}
+
+.topnav {
+    width: 100%;
+    background-color: chocolate;
+    line-height: 35px;
+    float: center;
+}
+
+.topnav a{
+    display: block;
+    color: brown;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.topnav ul{
+    float: left;
+}
+
+.topnav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+#nav ul li a {
+    display: block;
+    font-family: serif;
+    color:aqua;
+    font-size: 14px;
+    padding: 24px 14px;
+    text-decoration: none;
+}
+
+.topnav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: beige;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+    }
+
+.topnav ul li:hover ul {
+    display: block;
+    position: absolute;
+    background-color:burlywood;
+    padding: 10px;
+    padding-right: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.topnav ul li ul li {
+    padding: 8px 14px;
+}
+
+.topnav ul li ul li a:hover {
+    background-color: beige;
+    margin-left: 50px;
+}
+
+
+.slider_image {
+    width: 100%;
+    flex: 70%;
+    flex-wrap: wrap;
+    display: flex;
+    background-color:darkkhaki ;
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    background-color:cornflowerblue;
+    justify-content: center;
+    clear: both;
+    margin: 15px;
+}
+
+.flex-container > div {
+    background-color: burlywood;
+    color: crimson;
+    width: 200%;
+    margin: 15px;
+    text-align: center;
+    font-size: 12px;
+    }
+
+
+article h3 {
+    float: left;
+    width: 95%;
+    margin: auto;
+    margin-top: -20px;
+    padding: 20px;
+    text-align:justify;
+}
+
+article h5 {
+    text-align: left;
+}
+
